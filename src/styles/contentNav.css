@@ -1,0 +1,88 @@
+.nav-slider-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: 25px;
+    width: 20%;
+    height: 99vh;
+    color: #fff;
+}
+
+.nav-slider-ul {
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+    margin: 0px;
+    gap: 1rem;
+}
+
+.nav-slider-ul> a {
+    display: flex;
+    align-items: center;
+    width: max-content;
+    gap: 1rem;
+
+    border-radius: 15px;
+    padding: 5px 15px;
+    text-decoration: none;
+    text-transform: capitalize;
+    list-style: none;
+    color: #fff
+}
+
+.nav-slider-ul a:hover {
+    transition: 1s;
+    background-color: #444343;
+}
+
+.nav-slider-ul button {
+    font-size: 14px;
+    font-weight: bold;
+    padding: 15px 0;
+    border-radius: 25px;
+}
+
+.nav-icons {
+    width: 25px;
+    align-items: center;
+}
+
+.nav-icon-x {
+    margin: 0px;
+    padding: 0px;
+    width: 50px;
+}
+
+
+.nav-details-profile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    border-radius: 30px;
+    padding: 5px 15px;
+}
+
+.nav-details-profile:hover {
+    background-color: #444343;
+}
+
+
+.nav-details-profile>img {
+    width: 40px;
+    border-radius: 50%;
+}
+
+.nav-details-profile>div {
+    display: flex;
+    flex-direction: column;
+}
+
+.nav-details-profile div strong {
+    font-size: 16px;
+}
+
+.nav-details-profile div span {
+    font-size: 14px;
+    color: #6e6d6d;
+}

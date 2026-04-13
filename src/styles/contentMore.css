@@ -1,0 +1,84 @@
+.content-more {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    gap: 1.5rem;
+    overflow-y: hidden;
+}
+
+/* Search Button */
+.searchBar {
+    position: relative;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.searchBar input {
+    width: 100%;
+    padding: 15px 30px;
+    border-radius: 30px;
+    color: #6f6e6e;
+    border: 1px #6f6e6e solid;
+    cursor: pointer;
+    background-color: transparent;
+}
+
+.input-search-content {
+    position: absolute;
+    color: #6f6e6e;
+    left: 10px;
+    width: 20px;
+}
+
+/* Promo Subcribtion */
+.promo-section {
+    display: flex;
+    border-radius: 10px;
+    border: 1px solid #6f6e6e;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    padding: 10px;
+}
+
+.promo-section div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.promo-section div strong {
+    font-size: 20px;
+    color: #fff;
+}
+
+.promo-section div p {
+    font-size: 15px;
+    font-weight: bold;
+    color: #222;
+    padding: 5px;
+    border-radius: 10px;
+    background-color: rgb(75, 173, 75);
+}
+
+.promo-section p {
+    color: #fff;
+}
+
+.promo-section button {
+    color: #fff;
+    padding: 10px;
+    width: 150px;
+    border-radius: 30px;
+    background-color: dodgerblue;
+    border-style: none;
+}
+
+/* Treding news */
+.trends-section {
+    display: flex;
+    
+}
