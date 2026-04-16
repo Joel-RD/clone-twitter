@@ -1,0 +1,82 @@
+.user-suggestions {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 10px;
+    border: solid 1px #969696;
+    height: 250px;
+    overflow-y: auto;
+    gap: 1rem;
+    padding: 10px;
+}
+
+.user-suggestions h3 {
+    margin-left: 20px;
+}
+
+.user-suggestions::-webkit-scrollbar {
+    width: 6px;
+}
+
+.user-suggestions::-webkit-scrollbar-track {
+    background: rgba(241, 241, 241, 0.6);
+    border-radius: 10px;
+}
+
+.user-suggestions::-webkit-scrollbar-thumb {
+    background: rgba(136, 136, 136, 0.8);
+    border-radius: 10px;
+    border: 1px solid rgba(241, 241, 241, 0.9);
+    transition: background 0.2s ease; /* Suave */
+}
+
+.user-suggestions::-webkit-scrollbar-thumb:hover {
+    background: rgba(85, 85, 85, 1);
+}
+
+.user-suggestions::-webkit-scrollbar-thumb:active {
+    background: rgba(60, 60, 60, 1); /* Presionado */
+}
+
+.user-suggestions aside {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    width: 90%;
+}
+
+.user-suggestions aside img {
+    width: 50px;
+    border-radius: 50%;
+}
+
+.user-suggestions article {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.user-suggestions article strong {
+    font-size: 14px;
+    color: #FFF;
+}
+
+.user-suggestions article span {
+    color: #969696;
+}
+
+.user-suggestions article div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.user-suggestions aside button {
+    width: 80px;
+    height: 35px;
+    border-radius: 30px;
+    font-weight: bold;
+    background-color: dodgerblue;
+    color: #fff;
+    border-style: none;
+}

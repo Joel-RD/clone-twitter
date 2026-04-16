@@ -1,0 +1,76 @@
+.posts-trading {
+    border: 1px solid #858585;
+    height: 300px;
+    overflow-y: scroll;
+    border-radius: 10px;
+}
+
+.posts-trading::-webkit-scrollbar {
+    width: 6px;
+}
+
+.posts-trading::-webkit-scrollbar-track {
+    background: rgba(241, 241, 241, 0.6);
+    border-radius: 10px;
+}
+
+.posts-trading::-webkit-scrollbar-thumb {
+    background: rgba(136, 136, 136, 0.8);
+    border-radius: 10px;
+    border: 1px solid rgba(241, 241, 241, 0.9);
+    transition: background 0.2s ease; /* Suave */
+}
+
+.posts-trading::-webkit-scrollbar-thumb:hover {
+    background: rgba(85, 85, 85, 1);
+}
+
+.posts-trading::-webkit-scrollbar-thumb:active {
+    background: rgba(60, 60, 60, 1); /* Presionado */
+}
+
+.posts-trading h3 {
+    padding-left: 15px;
+}
+
+.whathappend-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+    gap: 1.5rem;
+    width: 90%;
+}
+
+.posts-trading aside {
+    display: flex;
+    gap: 1rem;
+    justify-content: space-between;
+}
+
+.posts-trading aside div {
+    display: flex;
+    padding: 0px;
+    gap: 0.3rem;
+    flex-direction: column;
+}
+
+.posts-trading aside div span {
+    font-size: 16px;
+    color: #5f5e5e;
+}
+
+.posts-trading aside div strong {
+    font-size: 13px;
+    color: #fff
+}
+
+.posts-trading aside div strong::before {
+    content: "#";
+
+}
+
+.trend-post-more {
+    color: #fff;
+    width: 20px;
+}
