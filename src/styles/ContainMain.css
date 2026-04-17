@@ -1,0 +1,69 @@
+.container-main {
+    width: 95%;
+    height: auto;
+}
+
+.container-main section {
+    display: flex;
+    width: 100%;
+}
+
+.container-main section div {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.span-line {
+    width: 100%;
+    background-color: #676767;
+    height: 0.1px;
+}
+
+.container-main img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.container-main section textarea {
+    width: 90%;
+    height: 100px;
+    align-content: center;
+    background-color: transparent;
+    border-style: none;
+    color: #fff;
+    resize: none;
+}
+
+.container-main section textarea:focus {
+  outline: none;        /* Específicamente en foco */
+  border-color: #ccc;   /* Opcional: mantén o cambia el borde */
+}
+
+.container-main aside {
+    gap: 1rem;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container-main article {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.container-main aside svg {
+    width: 25px;
+    color: dodgerblue;
+    margin-left: 1rem;
+}
+
+.container-main button {
+    padding: 10px 25px;
+    border-radius: 30px;
+    font-weight: bold;
+}
