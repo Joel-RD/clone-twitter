@@ -1,12 +1,12 @@
 export function PromoAdd({title, desc, describtion, titleButton}: {title: string, desc: string, describtion: string, titleButton: string}) {
     return (
-        <>
-            <div>
-                <strong>{title}</strong>
-                <p>{desc}</p>
+        <div className="promo-add-container">
+            <div className="promo-add-header">
+                <strong className="promo-add-title">{title}</strong>
+                <p className="promo-add-discount">{desc}</p>
             </div>
-            <p>{describtion}</p>
-            <button>{titleButton}</button>
-        </>
+            <p className="promo-add-description">{describtion}</p>
+            <button className="promo-add-button">{titleButton}</button>
+        </div>
     )
 }

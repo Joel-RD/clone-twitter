@@ -38,7 +38,7 @@
     background: rgba(60, 60, 60, 1); /* Presionado */
 }
 
-.user-suggestions aside {
+.user-add-item {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -46,32 +46,32 @@
     width: 90%;
 }
 
-.user-suggestions aside img {
+.user-add-avatar {
     width: 50px;
     border-radius: 50%;
 }
 
-.user-suggestions article {
+.user-add-info {
     display: flex;
     gap: 0.5rem;
 }
 
-.user-suggestions article strong {
+.user-add-name {
     font-size: 14px;
     color: #FFF;
 }
 
-.user-suggestions article span {
+.user-add-username {
     color: #969696;
 }
 
-.user-suggestions article div {
+.user-add-details {
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
 
-.user-suggestions aside button {
+.user-add-button {
     width: 80px;
     height: 35px;
     border-radius: 30px;

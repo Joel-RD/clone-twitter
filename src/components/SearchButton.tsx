@@ -2,9 +2,9 @@ import { Icon } from "../hooks/IconsComponents"
 
 export function SearchButton({ className = "" }: { className?: string }) {
     return (
-        <aside className={className}>
-            <Icon name="search" className="input-search-content" />
-            <input type="text" />
+        <aside className={`search-button-container ${className}`}>
+            <Icon name="search" className="search-button-icon" />
+            <input className="search-button-input" type="text" />
         </aside>
     )
 }

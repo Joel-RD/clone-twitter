@@ -42,35 +42,35 @@
     width: 90%;
 }
 
-.posts-trading aside {
+.what-happend-item {
     display: flex;
     gap: 1rem;
     justify-content: space-between;
 }
 
-.posts-trading aside div {
+.what-happend-info {
     display: flex;
     padding: 0px;
     gap: 0.3rem;
     flex-direction: column;
 }
 
-.posts-trading aside div span {
+.what-happend-category {
     font-size: 16px;
     color: #5f5e5e;
 }
 
-.posts-trading aside div strong {
+.what-happend-topic {
     font-size: 13px;
     color: #fff
 }
 
-.posts-trading aside div strong::before {
+.what-happend-topic::before {
     content: "#";
 
 }
 
-.trend-post-more {
+.what-happend-more {
     color: #fff;
     width: 20px;
 }
